@@ -23,6 +23,7 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -31,6 +32,11 @@ body {
   color: #444;
   line-height: 1.9;
   background-color: #f3f3f3;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
 }
 
 /* GENERAL ELEMENTS */
